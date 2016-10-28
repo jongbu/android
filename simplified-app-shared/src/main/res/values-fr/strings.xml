@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- EULA strings -->
+  <string name="eula_disagree">être en désaccord</string>
+  <string name="eula_agree">Accepter</string>
+
+  <!-- Books strings -->
+  <string name="books">Mes livres</string>
+  <string name="books_sync">compte de synchronisation</string>
+  <string name="books_sort_by">Trier par</string>
+  <string name="books_sort_by_author">Auteur</string>
+  <string name="books_sort_by_title">Titre</string>
+
+  <!-- Holds strings -->
+  <string name="holds">Réservations</string>
+  <string name="holds_empty">Lorsque vous réservez un livre dans le catalogue, il affichera ici. Regardez ici de temps en temps pour voir si votre livre est disponible au téléchargement.</string>
+
+  <!-- Catalog strings -->
+  <string name="catalog">Catalogue</string>
+  <string name="catalog_book_detail">Détails</string>
+  <string name="catalog_load_error_title">Erreur</string>
+  <string name="catalog_load_error_text">Une erreur est survenue lors du chargement du catalogue. Veuillez réessayer.</string>
+  <string name="catalog_load_not_connected">\"Vous n\'êtes pas connecté à Internet. S\'il vous plaît se reconnecter et essayer à nouveau.\"</string>
+  <string name="catalog_book_revoke_loan_confirm">Etes-vous sûr de vouloir retourner ce livre?</string>
+  <string name="catalog_book_revoke_hold_confirm">Êtes-vous sûr de vouloir supprimer cette réserve?</string>
+  <string name="catalog_book_delete_confirm">Êtes-vous sûr de vouloir supprimer ce livre?</string>
+  <string name="catalog_cancel_downloading">Annuler</string>
+  <string name="catalog_categories">Catégories</string>
+  <string name="catalog_detail_related">Livres connexes</string>
+  <string name="catalog_revoke_failed">\"La tâche n\'a pas pu être terminée.\"</string>
+  <string name="catalog_download_failed">Le téléchargement ne peut pas être terminée.</string>
+  <string name="catalog_download_failed_loan_limit_reached">limite de prêt du livre atteint.</string>
+  <string name="catalog_download_failed_unsupported_pdf">Ce livre est un Adobe PDF, qui ne sont pas pris en charge.</string>
+  <string name="catalog_download_failed_unsupported_unknown">\"Ce livre est d\'un type inconnu et n\'est pas pris en charge.\"</string>
+  <string name="catalog_download_failed_unsupported_passhash">livres protégés Passhash ne sont pas pris en charge.</string>
+  <string name="catalog_downloading">Téléchargement en cours</string>
+  <string name="catalog_empty_feed">Aucun résultat trouvé.</string>
+  <string name="catalog_empty_my_books">Visitez le catalogue pour ajouter des livres à Mes Livres</string>
+  <string name="catalog_meta_corrupt">\"Les métadonnées pour ce livre est endommagé! S\'il vous plaît synchroniser votre compte pour y remédier.\"</string>
+  <string name="catalog_meta_corrupt_title">Métadonnées endommagé</string>
+  <string name="catalog_publication_date">Publié</string>
+  <string name="catalog_publisher">Éditeur</string>
+  <string name="catalog_refresh">\"rafraîchir l\'alimentation.\"</string>
+  <string name="catalog_search">Chercher</string>
+  <string name="catalog_unknown_feed">Inconnu</string>
+  <string name="catalog_more_feed">Plus</string>
+  <string name="catalog_requesting_loan">Demande</string>
+  <string name="catalog_requesting_revoke">Demande</string>
+
+  <!-- Catalog book detail strings -->
+  <string name="catalog_book_borrow">Obtenez</string>
+  <string name="catalog_book_reserve">réserve</string>
+  <string name="catalog_book_read">lire</string>
+  <string name="catalog_book_error_dismiss">Rejeter</string>
+  <string name="catalog_book_error_retry">recommencez</string>
+  <string name="catalog_book_sync">synchroniser</string>
+  <string name="catalog_book_download">Télécharger</string>
+  <string name="catalog_book_delete">Effacer</string>
+  <string name="catalog_book_revoke_loan">retourner maintenant</string>
+  <string name="catalog_book_revoke_hold">Retirer</string>
+  <string name="catalog_book_report">retourner maintenant</string>
+  <string name="catalog_book_distribution">Distribué par: %s</string>
+  <string name="catalog_book_revoke_cancel">Annuler</string>
+
+  <string name="catalog_book_availability_loaned_indefinite">Vous avez emprunter ce livre.</string>
+  <string name="catalog_book_availability_loaned_timed">Vous avez emprunter ce livre %s.</string>
+  <string name="catalog_book_availability_open_access">Ce livre est à vous.</string>
+  <string name="catalog_book_availability_held_indefinite">Vous avez ce livre en attente.</string>
+  <string name="catalog_book_availability_held_timed">\"Vous serez en mesure d\'emprunter ce livre dans %s.\"</string>
+  <string name="catalog_book_availability_held_queue">\"Vous êtes à la position %d dans la file d\'attente pour ce livre.\"</string>
+  <string name="catalog_book_availability_reserved_timed">Votre réservation expire dans %s.</string>
+  <string name="catalog_book_availability_reserved_indefinite">Vous avez ce livre réservé.</string>
+  <string name="catalog_book_availability_loanable">Ce livre est disponible pour le prêt.</string>
+  <string name="catalog_book_availability_holdable">Tous les exemplaires de ce livre sont actuellement en prêt.</string>
+  <string name="catalog_book_availability_revoked">\"Ce livre est en attente d\'être retourné.\"</string>
+  <string name="catalog_book_interval_days">journées</string>
+  <string name="catalog_book_interval_hours">heures</string>
+  <string name="catalog_book_interval_sub_hour">\"moins d\'une heure\"</string>
+  <string name="catalog_book_interval_years_short">y = années</string>
+  <string name="catalog_book_interval_months_short">m = mois</string>
+  <string name="catalog_book_interval_weeks_short">w = semaines</string>
+  <string name="catalog_book_interval_days_short">d = jours</string>
+  <string name="catalog_book_interval_hours_short">h = heures</string>
+
+  <!-- Catalog book report strings -->
+  <string name="catalog_book_report_wrong_genre">Mauvais Genre</string>
+  <string name="catalog_book_report_wrong_audience">Mauvais Public</string>
+  <string name="catalog_book_report_wrong_age_range">\"Mauvais Tranche d\'âge\"</string>
+  <string name="catalog_book_report_wrong_title">Mauvais titre</string>
+  <string name="catalog_book_report_wrong_medium">Mauvais moyen</string>
+  <string name="catalog_book_report_wrong_author">Mauvais Auteur</string>
+  <string name="catalog_book_report_wrong_cover_image">image de couverture Mauvais / manquant</string>
+  <string name="catalog_book_report_wrong_description">Mauvais Description / Mismatched</string>
+  <string name="catalog_book_report_cant_download">Vous ne pouvez pas télécharger</string>
+  <string name="catalog_book_report_cant_borrow">Vous ne pouvez pas emprunter</string>
+  <string name="catalog_book_report_incorrect_contents">contenu Livre blanc ou incorrect</string>
+
+  <string name="catalog_book_report_cancel">Annuler</string>
+  <string name="catalog_book_report_submit">Soumettre</string>
+
+  <!-- Help strings -->
+  <string name="help">Aidez-moi</string>
+
+  <!-- Settings strings -->
+  <string name="settings">Paramètres</string>
+  <string name="settings_login_title">Carte de bibliothèque</string>
+  <string name="settings_barcode">code à barre</string>
+  <string name="settings_pin">PIN</string>
+  <string name="settings_screen_Lock_not_setup">\"l\'écran de verrouillage sécurisé n\'a pas été mis en place -> Aller à \'Paramètres -> Sécurité -> Verrouillage de l\'écran pour mettre en place un écran de verrouillage\"</string>
+  <string name="settings_log_in_cancel">Annuler</string>
+  <string name="settings_log_in">\"S\'identifier\"</string>
+  <string name="settings_log_out">Se déconnecter</string>
+  <string name="settings_log_out_cancel">Annuler</string>
+  <string name="settings_login_succeeded">Connecté avec succès</string>
+  <string name="settings_logout_succeeded">Déconnecté avec succès</string>
+  <string name="settings_login_failed">Échec de la connexion</string>
+  <string name="settings_login_failed_credentials">Votre code à barres et la broche combinaison était pas valable. Veuillez réessayer.</string>
+  <string name="settings_login_failed_server">\"Une erreur inconnue est survenue. S\'il vous plaît vérifier votre connexion ou réessayer plus tard.\"</string>
+  <string name="settings_login_failed_device">\"Une erreur est survenue lors de l\'activation de votre appareil. S\'il vous plaît vérifier votre connexion ou réessayer plus tard.\"</string>
+  <string name="settings_login_failed_adobe_device_limit">\"Trop de périphériques ont été enregistrés sur ce compte. S\'il vous plaît contacter le support Adobe pour l\'assistance.\"</string>
+  <string name="settings_login_failed_adobe_device_bad_clock">\"Une erreur est survenue lors de l\'activation de votre appareil. S\'il vous plaît vérifier que votre horloge de l\'appareil est réglé sur l\'heure correcte.\"</string>
+  <string name="settings_logout_failed">Déconnexion Échec</string>
+  <string name="settings_feedback">\"Retour d\'information\"</string>
+  <string name="settings_about">Sur</string>
+  <string name="settings_credits">reconnaissances</string>
+  <string name="settings_eula">\"Accord de l\'utilisateur\"</string>
+  <string name="settings_privacy">Politique de confidentialité</string>
+  <string name="settings_logout_confirm">Si vous vous déconnectez de votre compte, tout le contenu sera retiré de ce dispositif.</string>
+  <string name="settings_adobe_accounts">Adobe Comptes</string>
+  <string name="settings_alt_uris">URL Autres</string>
+  <string name="settings_reveal_password">Afficher PIN</string>
+
+  <string name="navigation_accessibility">La navigation</string>
+  <string name="navigation_accessibility_drawer_show">Afficher le tiroir de navigation. bouton.</string>
+  <string name="navigation_accessibility_drawer_hide">Hide tiroir de navigation. bouton.</string>
+
+  <!-- Accessibility strings used for content descriptions (Settings) -->
+  <string name="settings_accessibility_log_in_cancel">Annuler connexion</string>
+  <string name="settings_accessibility_log_in">\"S\'identifier\"</string>
+  <string name="settings_accessibility_log_out_cancel">Annuler la déconnexion</string>
+  <string name="settings_accessibility_log_out">Se déconnecter</string>
+
+  <string name="catalog_accessibility_book_borrow">bouton obtenir</string>
+  <string name="catalog_accessibility_book_reserve">bouton réserve</string>
+  <string name="catalog_accessibility_book_read">bouton lire</string>
+  <string name="catalog_accessibility_book_error_dismiss">bouton rejeter</string>
+  <string name="catalog_accessibility_book_error_retry">bouton réessayer</string>
+  <string name="catalog_accessibility_book_sync">bouton de synchronisation</string>
+  <string name="catalog_accessibility_book_download">bouton pour télécharger</string>
+  <string name="catalog_accessibility_book_delete">bouton supprimer</string>
+  <string name="catalog_accessibility_book_revoke_loan">retourner maintenant le bouton</string>
+  <string name="catalog_accessibility_book_revoke_hold">bouton supprimer</string>
+  <string name="catalog_accessibility_book_revoke_loan_cancel">annuler le retour maintenant</string>
+  <string name="catalog_accessibility_book_revoke_hold_cancel">annuler remove</string>
+  <string name="catalog_accessibility_header_show_more">montrer plus en %1$s</string>
+
+  <!-- Reader strings -->
+  <string name="reader">Lecteur</string>
+  <string name="reader_toc">Table des matières</string>
+
+  <!-- Accessibility strings used for content descriptions (Reader) -->
+  <string name="reader_accessibility_toc">Afficher la table des matières</string>
+  <string name="reader_accessibility_toc_back">Fermez la table des matières sans sélectionner un élément</string>
+  <string name="reader_accessibility_settings">Afficher les paramètres de lecture</string>
+  <string name="reader_accessibility_close">Ferme le livre</string>
+  <string name="reader_accessibility_media_previous">Aller au précédent élément multimédia</string>
+  <string name="reader_accessibility_media_next">Aller au prochain élément multimédia</string>
+  <string name="reader_accessibility_media_play">Lecture ou pause actuelle élément multimédia</string>
+
+
+  <string name="reader_accessibility_settings_sans_font">Police sans serif</string>
+  <string name="reader_accessibility_settings_serif_font">Police serif</string>
+  <string name="reader_accessibility_settings_open_dyslexic_font">Police Open dyslexic</string>
+  <string name="reader_accessibility_settings_white_on_black_text">Texte blanc sur noir</string>
+  <string name="reader_accessibility_settings_black_on_sepia_text">Texte noir sur sépia</string>
+  <string name="reader_accessibility_settings_black_on_white_text">Texte noir sur blanc</string>
+  <string name="reader_accessibility_settings_decrease_font_size">Retrécir le texte</string>
+  <string name="reader_accessibility_settings_increase_font_size">Agrandir le texte</string>
+  <string name="reader_accessibility_settings_brightness_slider">Ajuster la luminosité</string>
+  <string name="reader_accessibility_settings_close">Fermer paramètres du lecteur</string>
+  <string name="reader_settings_close">Fermer</string>
+
+
+
+
+
+</resources>

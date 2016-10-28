@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_needed">Vous devez vous connecter pour accéder à la collection.</string>
+    <string name="login_with_barcode">Connexion avec NYPL carte de bibliothèque</string>
+
+</resources>

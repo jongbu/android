@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_needed">您需要登录才能访问的集合。</string>
+    <string name="login_with_barcode">与NYPL图书证登录</string>
+
+</resources>

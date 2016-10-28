@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- EULA strings -->
+  <string name="eula_disagree">Dezacord</string>
+  <string name="eula_agree">De acord</string>
+
+  <!-- Books strings -->
+  <string name="books">Cartile mele</string>
+  <string name="books_sync">cont de sincronizare</string>
+  <string name="books_sort_by">Filtrează după</string>
+  <string name="books_sort_by_author">Autor</string>
+  <string name="books_sort_by_title">Titlu</string>
+
+  <!-- Holds strings -->
+  <string name="holds">Rezervările</string>
+  <string name="holds_empty">Atunci când rezerva o carte din catalog va apărea aici. Uita-te aici, din când în când pentru a vedea dacă cartea dvs. este disponibilă pentru a descărca.</string>
+
+  <!-- Catalog strings -->
+  <string name="catalog">Catalog</string>
+  <string name="catalog_book_detail">Detalii</string>
+  <string name="catalog_load_error_title">Eroare</string>
+  <string name="catalog_load_error_text">A apărut o eroare în timpul încărcării catalogului. Vă rugăm să încercați din nou.</string>
+  <string name="catalog_load_not_connected">Nu sunteți conectat la internet. Conectați-vă și încercați din nou.</string>
+  <string name="catalog_book_revoke_loan_confirm">Sunteți sigur că doriți să reveniți la această carte?</string>
+  <string name="catalog_book_revoke_hold_confirm">Sunteți sigur că doriți să eliminați această rezervare?</string>
+  <string name="catalog_book_delete_confirm">Sunteți sigur că doriți să ștergeți această carte?</string>
+  <string name="catalog_cancel_downloading">Anulare</string>
+  <string name="catalog_categories">categorii</string>
+  <string name="catalog_detail_related">Cărți similare</string>
+  <string name="catalog_revoke_failed">Operatia nu a putut fi completata.</string>
+  <string name="catalog_download_failed">Download-ul nu a putut fi finalizată.</string>
+  <string name="catalog_download_failed_loan_limit_reached">Limita de împrumut de carte a ajuns.</string>
+  <string name="catalog_download_failed_unsupported_pdf">Aceasta carte este un Adobe PDF, care nu este acceptat.</string>
+  <string name="catalog_download_failed_unsupported_unknown">Această carte este de tip necunoscut și nu este acceptat.</string>
+  <string name="catalog_download_failed_unsupported_passhash">cărți Passhash protejate nu sunt acceptate.</string>
+  <string name="catalog_downloading">Descărcarea</string>
+  <string name="catalog_empty_feed">Nici un rezultat gasit.</string>
+  <string name="catalog_empty_my_books">Vizitează Catalog de cărți la \\ nAdăugați la Cărțile mele.</string>
+  <string name="catalog_meta_corrupt">Metadatele pentru această carte este deteriorat! Vă rugăm să sincronizați contul dvs. pentru a remedia problema.</string>
+  <string name="catalog_meta_corrupt_title">metadate deteriorate</string>
+  <string name="catalog_publication_date">Publicat</string>
+  <string name="catalog_publisher">Editor</string>
+  <string name="catalog_refresh">Actualizează feed</string>
+  <string name="catalog_search">Căutare</string>
+  <string name="catalog_unknown_feed">Necunoscut</string>
+  <string name="catalog_more_feed">Mai Mult…</string>
+  <string name="catalog_requesting_loan">solicitant</string>
+  <string name="catalog_requesting_revoke">solicitant</string>
+
+  <!-- Catalog book detail strings -->
+  <string name="catalog_book_borrow">obține</string>
+  <string name="catalog_book_reserve">rezervă</string>
+  <string name="catalog_book_read">Citit</string>
+  <string name="catalog_book_error_dismiss">destitui</string>
+  <string name="catalog_book_error_retry">reîncerca</string>
+  <string name="catalog_book_sync">sincronizare</string>
+  <string name="catalog_book_download">Descarca</string>
+  <string name="catalog_book_delete">Șterge</string>
+  <string name="catalog_book_revoke_loan">Întoarcere acum</string>
+  <string name="catalog_book_revoke_hold">Elimina</string>
+  <string name="catalog_book_report">Raportați o problemă</string>
+  <string name="catalog_book_distribution">Distribuite prin: %s</string>
+  <string name="catalog_book_revoke_cancel">Anulare</string>
+
+  <string name="catalog_book_availability_loaned_indefinite">Ai această carte pe împrumut.</string>
+  <string name="catalog_book_availability_loaned_timed">Ai această carte cu titlu de împrumut pentru %s.</string>
+  <string name="catalog_book_availability_open_access">Aceasta carte este a ta de a păstra.</string>
+  <string name="catalog_book_availability_held_indefinite">Ai această carte în așteptare.</string>
+  <string name="catalog_book_availability_held_timed">Vei fi capabil să împrumute această carte în %s.</string>
+  <string name="catalog_book_availability_held_queue">Sunteți în poziția %d în coada de așteptare pentru această carte.</string>
+  <string name="catalog_book_availability_reserved_timed">Rezervarea dvs. expiră în %s.</string>
+  <string name="catalog_book_availability_reserved_indefinite">Ai această carte rezervată.</string>
+  <string name="catalog_book_availability_loanable">Această carte este disponibilă pentru împrumut.</string>
+  <string name="catalog_book_availability_holdable">Toate copiile acestei cărți sunt în prezent cu titlu de împrumut.</string>
+  <string name="catalog_book_availability_revoked">Această carte așteaptă să fie returnat.</string>
+  <string name="catalog_book_interval_days">zi</string>
+  <string name="catalog_book_interval_hours">ore</string>
+  <string name="catalog_book_interval_sub_hour">mai puțin de o oră</string>
+  <string name="catalog_book_interval_years_short">y</string>
+  <string name="catalog_book_interval_months_short">m</string>
+  <string name="catalog_book_interval_weeks_short">w</string>
+  <string name="catalog_book_interval_days_short">d</string>
+  <string name="catalog_book_interval_hours_short">h</string>
+
+  <!-- Catalog book report strings -->
+  <string name="catalog_book_report_wrong_genre">Gen greșită</string>
+  <string name="catalog_book_report_wrong_audience">Audiența greșită</string>
+  <string name="catalog_book_report_wrong_age_range">Greșit Grupa de vârstă</string>
+  <string name="catalog_book_report_wrong_title">Titlu greșit</string>
+  <string name="catalog_book_report_wrong_medium">Mediu greșit</string>
+  <string name="catalog_book_report_wrong_author">Autor greșit</string>
+  <string name="catalog_book_report_wrong_cover_image">Greșit / Missing Cover Image</string>
+  <string name="catalog_book_report_wrong_description">Greșit / Descriere Mismatched</string>
+  <string name="catalog_book_report_cant_download">\"Poate \\ t Descărcare</string>
+  <string name="catalog_book_report_cant_borrow">\"Poate \\ t Împrumutați</string>
+  <string name="catalog_book_report_incorrect_contents">Cuprins Carte sau incorectă</string>
+
+  <string name="catalog_book_report_cancel">Anulare</string>
+  <string name="catalog_book_report_submit">A depune</string>
+
+  <!-- Help strings -->
+  <string name="help">Ajutor</string>
+
+  <!-- Settings strings -->
+  <string name="settings">setările</string>
+  <string name="settings_login_title">fișă</string>
+  <string name="settings_barcode">coduri de bare</string>
+  <string name="settings_pin">PIN</string>
+  <string name="settings_screen_Lock_not_setup">\"Ecran de blocare Secure nu a fost configurat Du-te.\" Setări -> Security -> ScreenLock \'pentru a configura un ecran de blocare \"</string>
+  <string name="settings_log_in_cancel">Anulare</string>
+  <string name="settings_log_in">Logare</string>
+  <string name="settings_log_out">Ieși</string>
+  <string name="settings_log_out_cancel">Anulare</string>
+  <string name="settings_login_succeeded">Autentificat cu succes</string>
+  <string name="settings_logout_succeeded">Delogat cu succes</string>
+  <string name="settings_login_failed">Autentificare esuata</string>
+  <string name="settings_login_failed_credentials">Dvs. de combinație de coduri de bare și PIN-ul nu a fost valid. Vă rugăm să încercați din nou.</string>
+  <string name="settings_login_failed_server">O eroare necunoscută s-a întamplat. Vă rugăm să verificați conexiunea sau încercați din nou mai târziu.</string>
+  <string name="settings_login_failed_device">A apărut o eroare la activarea dispozitivului. Vă rugăm să verificați conexiunea sau încercați din nou mai târziu.</string>
+  <string name="settings_login_failed_adobe_device_limit">Prea multe dispozitive au fost înregistrate în acest cont. Vă rugăm să contactați sprijinul Adobe pentru asistență.</string>
+  <string name="settings_login_failed_adobe_device_bad_clock">A apărut o eroare la activarea dispozitivului. Vă rugăm să verificați că ceasul aparatul este setat la ora corectă.</string>
+  <string name="settings_logout_failed">Deconectare nu a reușit</string>
+  <string name="settings_feedback">Parere</string>
+  <string name="settings_about">Despre</string>
+  <string name="settings_credits">Mulțumiri</string>
+  <string name="settings_eula">Acordul Utilizatorului</string>
+  <string name="settings_privacy">Politica de confidentialitate</string>
+  <string name="settings_logout_confirm">Dacă vă conectați la contul dvs., tot conținutul va fi eliminat de pe acest dispozitiv.</string>
+  <string name="settings_adobe_accounts">Conturi adobe</string>
+  <string name="settings_alt_uris">URIuri alternative</string>
+  <string name="settings_reveal_password">Afișează PIN</string>
+
+  <string name="navigation_accessibility">Navigare</string>
+  <string name="navigation_accessibility_drawer_show">Afișați panoul de navigare. buton.</string>
+  <string name="navigation_accessibility_drawer_hide">A ascunde panoul de navigare. buton.</string>
+
+  <!-- Accessibility strings used for content descriptions (Settings) -->
+  <string name="settings_accessibility_log_in_cancel">Anulare conectare</string>
+  <string name="settings_accessibility_log_in">Logare</string>
+  <string name="settings_accessibility_log_out_cancel">Anulare logout</string>
+  <string name="settings_accessibility_log_out">Ieși</string>
+
+  <string name="catalog_accessibility_book_borrow">propriul buton</string>
+  <string name="catalog_accessibility_book_reserve">Butonul de rezervă</string>
+  <string name="catalog_accessibility_book_read">citeşte mai Buton</string>
+  <string name="catalog_accessibility_book_error_dismiss">Concediaza</string>
+  <string name="catalog_accessibility_book_error_retry">reîncerca Button</string>
+  <string name="catalog_accessibility_book_sync">Butonul de sincronizare</string>
+  <string name="catalog_accessibility_book_download">Buton descărcare</string>
+  <string name="catalog_accessibility_book_delete">Buton Ștergere</string>
+  <string name="catalog_accessibility_book_revoke_loan">Întoarcere acum Butonul</string>
+  <string name="catalog_accessibility_book_revoke_hold">Buton pentru a elimina</string>
+  <string name="catalog_accessibility_book_revoke_loan_cancel">Anulare Întoarcere Acum</string>
+  <string name="catalog_accessibility_book_revoke_hold_cancel">anulaţi Eliminați</string>
+  <string name="catalog_accessibility_header_show_more">arată mai mult în %1$s</string>
+
+  <!-- Reader strings -->
+  <string name="reader">Cititor</string>
+  <string name="reader_toc">Cuprins</string>
+
+  <!-- Accessibility strings used for content descriptions (Reader) -->
+  <string name="reader_accessibility_toc">Afișează tabelul cuprins</string>
+  <string name="reader_accessibility_toc_back">Se închide tabelul cuprins fără a selecta un element</string>
+  <string name="reader_accessibility_settings">Afișați setările cititorului de</string>
+  <string name="reader_accessibility_close">Inchide cartea</string>
+  <string name="reader_accessibility_media_previous">Mergi la elementul media anterior</string>
+  <string name="reader_accessibility_media_next">Mergi la elementul media următor</string>
+  <string name="reader_accessibility_media_play">Redare sau pauză element media actual</string>
+
+
+  <string name="reader_accessibility_settings_sans_font">font Sans</string>
+  <string name="reader_accessibility_settings_serif_font">font serif</string>
+  <string name="reader_accessibility_settings_open_dyslexic_font">font dislexic deschis</string>
+  <string name="reader_accessibility_settings_white_on_black_text">Alb pe text negru</string>
+  <string name="reader_accessibility_settings_black_on_sepia_text">Negru pe textul sepia</string>
+  <string name="reader_accessibility_settings_black_on_white_text">Negru pe text alb</string>
+  <string name="reader_accessibility_settings_decrease_font_size">A micșora dimensiunea fontului</string>
+  <string name="reader_accessibility_settings_increase_font_size">Mărește dimensiunea fontului</string>
+  <string name="reader_accessibility_settings_brightness_slider">glisorul luminozitate</string>
+  <string name="reader_accessibility_settings_close">Close Setări cititor</string>
+  <string name="reader_settings_close">Închide</string>
+
+
+
+
+
+</resources>

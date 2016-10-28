@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- EULA strings -->
+  <string name="eula_disagree">不同意</string>
+  <string name="eula_agree">同意</string>
+
+  <!-- Books strings -->
+  <string name="books">我的書</string>
+  <string name="books_sync">同步帳戶</string>
+  <string name="books_sort_by">排序方式</string>
+  <string name="books_sort_by_author">作者</string>
+  <string name="books_sort_by_title">書名</string>
+
+  <!-- Holds strings -->
+  <string name="holds">預訂</string>
+  <string name="holds_empty">当您从目录中保留了一本书，将在此显示。从时间看这里的时间，看看你的书可供下载。</string>
+
+  <!-- Catalog strings -->
+  <string name="catalog">目錄</string>
+  <string name="catalog_book_detail">詳細信息</string>
+  <string name="catalog_load_error_title">錯誤</string>
+  <string name="catalog_load_error_text">在加載目錄時發生錯誤。 請再試一次。</string>
+  <string name="catalog_load_not_connected">您沒有連接到互聯網。請重新連接，然後再試一次。</string>
+  <string name="catalog_book_revoke_loan_confirm">你確定你想回到這本書？</string>
+  <string name="catalog_book_revoke_hold_confirm">你確定要刪除此預訂嗎？</string>
+  <string name="catalog_book_delete_confirm">你確定要刪除這本書？</string>
+  <string name="catalog_cancel_downloading">取消</string>
+  <string name="catalog_categories">分類</string>
+  <string name="catalog_detail_related">相關書籍</string>
+  <string name="catalog_revoke_failed">操作無法完成。</string>
+  <string name="catalog_download_failed">下載無法完成。</string>
+  <string name="catalog_download_failed_loan_limit_reached">已经達到借書限額。</string>
+  <string name="catalog_download_failed_unsupported_pdf">這本書为Adobe PDF，這是不支持的。</string>
+  <string name="catalog_download_failed_unsupported_unknown">這本書未知類型不予支持。</string>
+  <string name="catalog_download_failed_unsupported_passhash">Passhash保護的書籍不被支持。</string>
+  <string name="catalog_downloading">下載</string>
+  <string name="catalog_empty_feed">未找到結果。</string>
+  <string name="catalog_empty_my_books">造訪目錄将書籍添加到“我的書籍”。</string>
+  <string name="catalog_meta_corrupt">這本書的元數據被破壞！請同步您的帳戶來解決它。</string>
+  <string name="catalog_meta_corrupt_title">元數據損壞</string>
+  <string name="catalog_publication_date">已出版　</string>
+  <string name="catalog_publisher">出版者</string>
+  <string name="catalog_refresh">重新入注　</string>
+  <string name="catalog_search">搜索</string>
+  <string name="catalog_unknown_feed">未知</string>
+  <string name="catalog_more_feed">更多</string>
+  <string name="catalog_requesting_loan">請求</string>
+  <string name="catalog_requesting_revoke">請求</string>
+
+  <!-- Catalog book detail strings -->
+  <string name="catalog_book_borrow">得到</string>
+  <string name="catalog_book_reserve">预订</string>
+  <string name="catalog_book_read">讀</string>
+  <string name="catalog_book_error_dismiss">放弃</string>
+  <string name="catalog_book_error_retry">重試</string>
+  <string name="catalog_book_sync">同步</string>
+  <string name="catalog_book_download">下載</string>
+  <string name="catalog_book_delete">刪除</string>
+  <string name="catalog_book_revoke_loan">現在回到</string>
+  <string name="catalog_book_revoke_hold">去掉</string>
+  <string name="catalog_book_report">报告问题</string>
+  <string name="catalog_book_distribution">通過...分配 %s</string>
+  <string name="catalog_book_revoke_cancel">取消</string>
+
+  <string name="catalog_book_availability_loaned_indefinite">你借了這本書。</string>
+  <string name="catalog_book_availability_loaned_timed">你借了這本書 %s。</string>
+  <string name="catalog_book_availability_open_access">這本書是你擁有的。</string>
+  <string name="catalog_book_availability_held_indefinite">你预订了這本書。</string>
+  <string name="catalog_book_availability_held_timed">您將可以在％s借這本書。</string>
+  <string name="catalog_book_availability_held_queue">您在％d的位置等待這本書。</string>
+  <string name="catalog_book_availability_reserved_timed">您的預訂在%s到期。</string>
+  <string name="catalog_book_availability_reserved_indefinite">你预订了這本書。</string>
+  <string name="catalog_book_availability_loanable">這本書可供出借。</string>
+  <string name="catalog_book_availability_holdable">這本書的所有册数目前都可以出借。</string>
+  <string name="catalog_book_availability_revoked">這本書正在等待被还回来。</string>
+  <string name="catalog_book_interval_days">天</string>
+  <string name="catalog_book_interval_hours">小時</string>
+  <string name="catalog_book_interval_sub_hour">不到一個小時</string>
+  <string name="catalog_book_interval_years_short">Y =年</string>
+  <string name="catalog_book_interval_months_short">M =月</string>
+  <string name="catalog_book_interval_weeks_short">w =週</string>
+  <string name="catalog_book_interval_days_short">d =天</string>
+  <string name="catalog_book_interval_hours_short">h =小時</string>
+
+  <!-- Catalog book report strings -->
+  <string name="catalog_book_report_wrong_genre">錯誤類型</string>
+  <string name="catalog_book_report_wrong_audience">错误的读者群</string>
+  <string name="catalog_book_report_wrong_age_range">錯誤的年齡範圍</string>
+  <string name="catalog_book_report_wrong_title">書名错误</string>
+  <string name="catalog_book_report_wrong_medium">媒介錯誤</string>
+  <string name="catalog_book_report_wrong_author">作者不對</string>
+  <string name="catalog_book_report_wrong_cover_image">錯誤/丟失封面圖片</string>
+  <string name="catalog_book_report_wrong_description">错误/不匹配說明</string>
+  <string name="catalog_book_report_cant_download">不能下載</string>
+  <string name="catalog_book_report_cant_borrow">不能借用</string>
+  <string name="catalog_book_report_incorrect_contents">本書內容為空白或不正確</string>
+
+  <string name="catalog_book_report_cancel">取消</string>
+  <string name="catalog_book_report_submit">提交</string>
+
+  <!-- Help strings -->
+  <string name="help">幫幫我</string>
+
+  <!-- Settings strings -->
+  <string name="settings">設置</string>
+  <string name="settings_login_title">借書卡</string>
+  <string name="settings_barcode">条码</string>
+  <string name="settings_pin">私人密码</string>
+  <string name="settings_screen_Lock_not_setup">安全鎖屏尚未建立 - >進入“設置 - >安全 - >屏幕鎖以設置一個鎖屏</string>
+  <string name="settings_log_in_cancel">取消</string>
+  <string name="settings_log_in">登錄</string>
+  <string name="settings_log_out">登出</string>
+  <string name="settings_log_out_cancel">取消</string>
+  <string name="settings_login_succeeded">登錄成功</string>
+  <string name="settings_logout_succeeded">登出成功</string>
+  <string name="settings_login_failed">登錄失敗</string>
+  <string name="settings_login_failed_credentials">條碼和私人密码是無效的。 請再試一次</string>
+  <string name="settings_login_failed_server">出現未知錯誤。請檢查您的網絡連接或稍後再試。</string>
+  <string name="settings_login_failed_device">启动您的設備時發生錯誤。請檢查您的網絡連接或稍後再試。</string>
+  <string name="settings_login_failed_adobe_device_limit">太多的設備已註冊此帳戶。請聯繫以獲得幫助Adobe的支持。</string>
+  <string name="settings_login_failed_adobe_device_bad_clock">启动您的設備時發生錯誤。請檢查您設備上的時鐘调整為正確的時間。</string>
+  <string name="settings_logout_failed">登出失敗</string>
+  <string name="settings_feedback">反饋</string>
+  <string name="settings_about">關於</string>
+  <string name="settings_credits">致谢</string>
+  <string name="settings_eula">用戶協議</string>
+  <string name="settings_privacy">隱私政策</string>
+  <string name="settings_logout_confirm">如果您的帳戶註銷，所有內容都會從這部裝置中移除。</string>
+  <string name="settings_adobe_accounts">Adobe帳戶</string>
+  <string name="settings_alt_uris">備用網址</string>
+  <string name="settings_reveal_password">顯示私人密码</string>
+
+  <string name="navigation_accessibility">導航</string>
+  <string name="navigation_accessibility_drawer_show">顯示抽屜式導航欄。按鈕。</string>
+  <string name="navigation_accessibility_drawer_hide">隱藏抽屜式導航欄。按鈕。</string>
+
+  <!-- Accessibility strings used for content descriptions (Settings) -->
+  <string name="settings_accessibility_log_in_cancel">取消登錄</string>
+  <string name="settings_accessibility_log_in">登錄</string>
+  <string name="settings_accessibility_log_out_cancel">取消登出</string>
+  <string name="settings_accessibility_log_out">登出</string>
+
+  <string name="catalog_accessibility_book_borrow">獲得按鈕</string>
+  <string name="catalog_accessibility_book_reserve">預訂按鈕</string>
+  <string name="catalog_accessibility_book_read">閱讀按鈕</string>
+  <string name="catalog_accessibility_book_error_dismiss">解除按鈕</string>
+  <string name="catalog_accessibility_book_error_retry">重試按鈕</string>
+  <string name="catalog_accessibility_book_sync">同步按鈕</string>
+  <string name="catalog_accessibility_book_download">下載按鈕</string>
+  <string name="catalog_accessibility_book_delete">刪除按鈕</string>
+  <string name="catalog_accessibility_book_revoke_loan">現在返回按鈕</string>
+  <string name="catalog_accessibility_book_revoke_hold">刪除按鈕</string>
+  <string name="catalog_accessibility_book_revoke_loan_cancel">現在取消回報</string>
+  <string name="catalog_accessibility_book_revoke_hold_cancel">取消刪除</string>
+  <string name="catalog_accessibility_header_show_more">表現出更多的%1$s</string>
+
+  <!-- Reader strings -->
+  <string name="reader">讀者</string>
+  <string name="reader_toc">目錄</string>
+
+  <!-- Accessibility strings used for content descriptions (Reader) -->
+  <string name="reader_accessibility_toc">顯示目錄</string>
+  <string name="reader_accessibility_toc_back">關閉表的內容，而不選擇項目</string>
+  <string name="reader_accessibility_settings">顯示設置讀卡器</string>
+  <string name="reader_accessibility_close">合上書</string>
+  <string name="reader_accessibility_media_previous">轉到上一個媒體項目</string>
+  <string name="reader_accessibility_media_next">轉到下一個媒體項目</string>
+  <string name="reader_accessibility_media_play">播放或暫停當前媒體項目</string>
+
+
+  <string name="reader_accessibility_settings_sans_font">Sans字體</string>
+  <string name="reader_accessibility_settings_serif_font">Serif字體</string>
+  <string name="reader_accessibility_settings_open_dyslexic_font">打開閱讀障礙的字體</string>
+  <string name="reader_accessibility_settings_white_on_black_text">黑底白字</string>
+  <string name="reader_accessibility_settings_black_on_sepia_text">深褐色底黑字</string>
+  <string name="reader_accessibility_settings_black_on_white_text">白底黑字</string>
+  <string name="reader_accessibility_settings_decrease_font_size">減小字體大小</string>
+  <string name="reader_accessibility_settings_increase_font_size">增加字體大小</string>
+  <string name="reader_accessibility_settings_brightness_slider">亮度滑標</string>
+  <string name="reader_accessibility_settings_close">關閉閱讀器的設置</string>
+  <string name="reader_settings_close">關闭</string>
+
+
+
+
+
+</resources>
