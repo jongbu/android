@@ -58,5 +58,21 @@
     "catalogUrl13": "https://instantclassics.librarysimplified.org/all-books.xml",
     "licenseUrl": "http://www.librarysimplified.org/iclicenses.html",
     "mainColor": "#497049"
+  },
+  {
+    "id": 3,
+    "pathComponent" : "3",
+    "name" : "Library For All",
+    "subtitle" : "Making knowledge accessible to all, equally.",
+    "logo" : "LibraryForAll",
+    "needsAuth" : true,
+    "supportsSimplyESync" : false,
+    "supportsBarcodeScanner" : false,
+    "supportsBarcodeDisplay" : false,
+    "supportsCardCreator" : false,
+    "supportsReservations" : false,
+    "supportsHelpCenter" : false,
+    "catalogUrl" : "https://books.l4a.io/rw",
+    "mainColor": "#2da5a5"
   }
 ]
