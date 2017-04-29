@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.TabHost;
 import android.widget.TextView;
 import com.io7m.jnull.NullCheck;
 import com.io7m.jnull.Nullable;
@@ -44,7 +45,7 @@ import java.util.List;
   private final ReaderTOCViewSelectionListenerType listener;
   private final ViewGroup                          view_layout;
   private final ViewGroup                          view_root;
-  private final TextView                           view_title;
+  private final TabHost                            tab_host;
 
   /**
    * Construct a TOC view.
@@ -78,10 +79,22 @@ import java.util.List;
 
     final ListView in_list_view = NullCheck.notNull(
       (ListView) in_layout.findViewById(R.id.reader_toc_list));
-    final TextView in_title = NullCheck.notNull(
-      (TextView) in_layout.findViewById(R.id.reader_toc_title));
+
     final ViewGroup in_root =
       NullCheck.notNull((ViewGroup) in_list_view.getRootView());
+
+    final TabHost in_host = (TabHost) in_layout.findViewById(R.id.tabHost);
+    in_host.setup();
+
+    final TabHost.TabSpec contents = in_host.newTabSpec("Contents");
+    contents.setContent(R.id.reader_toc_list);
+    contents.setIndicator("Contents");
+    in_host.addTab(contents);
+
+    final TabHost.TabSpec bookmarks = in_host.newTabSpec("Bookmarks");
+    bookmarks.setContent(R.id.reader_bookmark_list);
+    bookmarks.setIndicator("Bookmarks");
+    in_host.addTab(bookmarks);
 
     final List<TOCElement> es = in_toc.getElements();
     this.adapter = new ArrayAdapter<TOCElement>(in_context, 0, es);
@@ -91,7 +104,7 @@ import java.util.List;
     this.context = in_context;
     this.view_layout = in_layout;
     this.view_root = in_root;
-    this.view_title = in_title;
+    this.tab_host = in_host;
     this.inflater = in_inflater;
     this.listener = in_listener;
 
@@ -106,11 +119,9 @@ import java.util.List;
     UIThread.checkIsUIThread();
 
     final int main_color = Color.parseColor(Simplified.getCurrentAccount().getMainColor());
-    final TextView in_title = NullCheck.notNull(this.view_title);
     final ViewGroup in_root = NullCheck.notNull(this.view_root);
 
     in_root.setBackgroundColor(cs.getBackgroundColor());
-    in_title.setTextColor(main_color);
   }
 
   @Override public boolean areAllItemsEnabled()
